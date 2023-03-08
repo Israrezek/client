@@ -9,12 +9,13 @@ import Routers from './components/routers';
 
 
 function App() {
+  const appName = "EIBFS-Devconnector";
   return (
     <div className="App">
     <BrowserRouter>
-    <Header></Header>
+    <Header appName = {appName} ></Header>
     <Routers></Routers>
-    <Footer></Footer>
+    <Footer appName= {appName}></Footer>
     </BrowserRouter>
     </div> 
   );

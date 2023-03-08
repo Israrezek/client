@@ -7,3 +7,5 @@ export default class Login extends Component {
     )
   }
 }
+
+// /auth method : post
